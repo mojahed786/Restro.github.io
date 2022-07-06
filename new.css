@@ -1,0 +1,197 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+#menu ul
+{
+    list-style:none;
+}
+
+ #menu ul li
+{
+  background-color:black;
+  border: 2px solid white;
+  width: 212px;
+  height: 40px;
+  text-align : center;
+  line-height:40px;
+  float:left;
+  position: relative;
+}
+
+ #menu ul li a
+ {
+   text-decoration:none;
+   color: white;
+   display: block;
+ }
+ 
+ #menu ul li a:hover
+ {
+   background-color:green;
+ }
+ 
+ #menu ul ul
+{
+   position:absolute;
+   display:none;
+}
+ 
+#menu ul li:hover > ul
+ {
+    display:block;
+    visibility: visible;
+ }
+ .top_cat
+ {
+   border: 0px solid black;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+  .top_cat_pro
+ {
+   border: 0px solid red;
+   width: 265px;
+   height:260px;
+   float: left;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   box-shadow: 5px 5px 5px black;
+   transition: transform 1s;
+ }
+ .top_cat_pro:hover
+ {
+transform: scale(1.05);
+ }
+
+  .top_cat_pro img
+ {
+    width:100%;
+    height:80%;
+ }
+  
+  .tittle p
+ {
+  text-align: center;
+ }
+
+ .btn
+ {
+  border: 0px solid green;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+ }
+ .btn input
+ {
+  height: 28px;
+  width: 120px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: orange;
+  font-size: 20px;
+  box-shadow: 3px 3px 4px black;
+ }
+ .btn input:hover
+ {
+  background-color: green;
+  color:white;
+ }
+  
+  .footer
+ {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+ }
+  
+  .footerb
+ {
+   height: 150px;
+   width: 1800px;
+   float: left;
+   color: white;
+   text-align: center;
+ }
+ 
+ table
+{
+  height: 350px;
+}
+form{
+  background-image: url(https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=2);
+   
+}
+
+.h{
+  margin-left: 450px; 
+   margin-bottom:10px;
+   color: black;
+}
+span{
+  text-align: center;
+  margin-left: 340px;
+  
+}
+.spn{
+  margin-bottom: 15px;
+}
+.spn1{
+  margin-bottom: 6px;
+  height: 10px;
+}
+input
+{
+  align-items: center;
+  margin-left: 10px;
+  width: 30%;
+  height: 35px;
+  border: 2px solid green;
+
+}
+textarea
+{
+  width: 30%;
+  height: fit-content;
+  margin-left: 24px;
+  margin-bottom: 100px;
+}
+select
+{
+  width: 30%;
+  height: 35px;
+  margin-left: 10px;
+  border-color: green;
+ 
+}
+input[type=submit]{
+  margin-left: 430px;
+}
+input[type=submit]:hover
+{
+  background-color: black;
+  color:white;
+}
+.div{
+  height: 100px;
+}
+
+.or_pl p{
+  text-align: center;
+  font-size: 4rem;
+  color: black;
+}
+.or_pl{
+  background-color: rgb(242, 238, 238) ;
+}
+.image{
+  margin-left: 500px;
+ margin-top: 20px;
+}
